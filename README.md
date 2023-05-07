@@ -1,3 +1,4 @@
 I'm a config junkie
 
-- For wallpapers use nitrogen
+- fehbg to assign wallpaper
+- picom for i3 transparent background

@@ -1,5 +1,8 @@
 # .bashrc
 
+# Color
+export PS1='\[\e[0m\][\[\e[0;38;5;37m\]\u\[\e[0m\]@\[\e[0m\]\h \[\e[0;38;5;166m\]\w\[\e[0m\]] \[\e[0m\]-\[\e[0m\]> \[\e[0;38;5;226m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2) \[\e[0m\]'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc

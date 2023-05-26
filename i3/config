@@ -165,7 +165,7 @@ exec ~/.fehbg &
 # finds out, if available)
 bar {
         position top
-        status_command i3status
+        status_command i3status -c /home/gmaaliki/.config/i3/i3status.conf
         tray_output primary
 }
 

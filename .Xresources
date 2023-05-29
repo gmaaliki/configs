@@ -37,6 +37,7 @@
 
 !! URxvt Appearance
 URxvt.font: xft:Mono:pixelsize=15:antialias=true, xft:Noto Emoji
+
 !URxvt.boldFont: xft:
 !URxvt.italicFont: xft:Dejavu Sans Mono:pixelsize=15, style=Book
 !URxvt.boldItalicFont: xftDejaVu Sans Mono:pixelsize=15, style=Book
@@ -52,10 +53,11 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.iso4755: false
 
-!! URxvt functions
-URxvt.keysym.Shift-Control-V: eval:paste_clipboard
-URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+!! URxvt copy/paste
+URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
+URxvt.keysym.C-S-0x56: eval:paste_clipboard
 
 ! Setting transparency and background                                                                                                                                       
 URxvt.depth: 32
 URxvt*background: rgba:0000/0000/0000/cccc
+

@@ -1,1 +1,0 @@
-## Koleksi Wallpaper

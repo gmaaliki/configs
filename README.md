@@ -1,7 +1,8 @@
-setup:
-terminal : rxvt-unicode
-window manager : i3
-shell : zsh
+## Minimal Configs for Productivity
+#### Setup
+terminal : rxvt-unicode  
+window manager : i3  
+shell : zsh  
 
 extras:
 - fehbg to assign wallpaper

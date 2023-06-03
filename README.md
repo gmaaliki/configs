@@ -12,4 +12,4 @@ extras:
 
 I use nvim and tmux for my workflow.
 
-For arch users just run the link.sh script and reboot. Don't know if it'll work though haven't tested it :P
+Todo : write a script for a fresh install (kinda like LARBS)

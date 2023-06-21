@@ -7,9 +7,11 @@ shell : zsh
 extras:
 - fehbg to assign wallpaper
 - picom for i3 transparent background
-- xsel for copy paste
+- xclip for copy paste
 - xrdb for urxvt configs
 
-I use nvim and tmux for my workflow.
+I use nvim and tmux for my workflow.  
 
-Todo : write a script for a fresh install (kinda like LARBS)
+Custom keybindings :
+- `CapsLk` = `Esc`
+- `Shift + CapsLk` = `CapsLk`

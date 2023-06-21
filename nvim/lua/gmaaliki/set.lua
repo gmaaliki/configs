@@ -29,5 +29,11 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
+vim.cmd([[
+  augroup HotlinConfig
+    autocmd!
+    autocmd FileType html setlocal colorcolumn=0
+  augroup END
+]])
 
 vim.opt.clipboard = "unnamedplus"

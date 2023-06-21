@@ -187,8 +187,17 @@ bindsym $mod+m move workspace to output left
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
 
+# Start Scripts
+## Battery Check
+##exec --no-startup-id ~/.battery_status.sh
+
 # Start Programs
 assign [class="URxvt"] 1
-assign [class="Brave"] 2
-exec brave
+assign [class="LibreWolf"] 2
+assign [class="firefox"] 3
+assign [class="Standard Notes"] 4
+assign [class="zoom"] 9
+for_window [instance="libreoffice"] move container to workspace 5
+
+exec librewolf
 exec urxvt
